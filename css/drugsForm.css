@@ -1,0 +1,79 @@
+/*
+Name : drugsForm.css
+Purpose : Style sheet for the Drug forms
+Author: Krzysztof Bas 
+Date: 18/02/2020
+*/
+
+/* Include padding and border in the element's total width and height */
+*{
+  box-sizing: border-box; 
+}
+/* Style input,textarea and select tags */
+input,textarea,select{
+	margin:1px; 								/* set margin to 1 pixel */
+    margin-left: 5%;							/* set margin from the left to 5% of containers size */	
+	padding-left: 10px;							/* set padding from the left to 10 pixels */
+    float: right;								/* elements float from the right */
+	font-family: 'Comfortaa', cursive;			/* select name and font type */
+	padding:3px;								/* set container padding to 3 pixels */
+	font-size: 11px;							/* set font size to 10 pixels */
+	width: 55%;									/* set width of elements to 55% of the container */
+	border: 0;									/* set border to 0 */
+	box-sizing: border-box;						/* Include padding and border in the element's total width and height */
+	border-radius: 1em;							/* set border-radius on elements corners */
+	border: 2px solid #4a7eba;					/* Set width, type and color of the border */
+	resize: none;								/* Disable resizability of the elements */
+	font-weight:bold;							/* Set font to bold */
+}
+
+/* Set font-weight of the label tags to Bold */				
+label{
+   font-weight: bold;						
+}
+   /*Responsive Two Column Layout from w3schools.com */
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;									/* Float from the left */
+  width: 49%;									/* Set width of the column to 50% of the main container */
+  margin-right:10px;
+}
+
+/* Create three equal columns that floats next to each other */
+.columns {
+  float: left;									/* set float to left of container */
+  width: 31.8%;									/* Set width */
+  padding: 10px;								/* Set padding of elemenets to 10px */
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";									/* Add empty String under the row */
+  display: block;								/* Display as block */
+  clear: both;									/* Clear floats from both sides of the row */
+}
+/* Style select tags and buttons */
+#listbox,#amendViewButton,#deleteList,#customerList,#addPrescriptionDrug{
+	font-family: 'Comfortaa', cursive;			/* select name and font type */
+	font-size: 15px;							/* Set font size */
+	width:30%;									/* Set width of the elements to 30% of the container */
+	float: right;								/* Set float to right */
+	height:40px;								/* Set height of the elements to 50 pixels */
+	font-weight:bold;							/* Set font to Bold */	
+}
+button {
+	text-align:center;							/* Align button text to center of the button */	
+}
+/* Style amendViewButton */
+#amendViewButton{
+	width:15%;									/* Set width of the button to 15% of the container */
+	margin-right:25%;							/* set margin from the right to 25% of the container */
+}
+/* Position delete drug select tag*/	
+#deleteList,#customerList,#addPrescriptionDrug{
+  	margin:auto;								/* Set margin of the select tag to auto */	
+	float:none;									/* set previous float(right) to none */	
+	width:40%;									/* Set width of the select tag to 40% of the containers width  */	
+}
+

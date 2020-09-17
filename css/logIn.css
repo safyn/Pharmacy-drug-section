@@ -1,0 +1,63 @@
+/*
+																				THIS FILE IS RESPOSINBLE FOR LOGIN APPEARANCE.
+BY:
+A.Robert Binkowski
+C00237917
+
+B.Krzystof Baś
+C00238768
+
+C.Michał Matusiewicz
+C00231687
+
+D.Przemysław Twardowski
+C00224251
+
+*/
+
+#logo{
+    position: relative;								/*the element is positioned relative to its normal posiion*/
+    padding: 1em;									/*generates space around an element's content*/
+    padding-bottom: 3em;							/*padding from the bottom*/
+}
+section{
+    margin: 10vh;									/*Viewport= the browser window size*/
+    margin-top: 10vh;								/*margin from top*/
+    height: 70vh;									
+}
+input{
+    border: 3px solid white;						/*white border*/
+    padding: 1em;									
+    margin: 1em;
+    border-bottom: 1px solid #3268a8;				/*blue border*/
+    font-weight: bold;
+    color: #3268a8;									/*blue*/
+    transition: 0.3s;
+}
+input:focus{
+    border: 3px solid #3268a8;   
+    border-radius: 1em;
+}
+button{
+    margin-top: 1em;
+    padding: 0em;
+    width: 10em;
+}
+.button{
+    background: none;
+    margin: 0;
+    border: none;
+    cursor: pointer;
+}
+.button:hover{
+    color: white;
+    font-weight: bold;
+}
+section{
+    max-width: 40vh;
+    margin:auto;
+    margin-top: 10%;
+}
+button:hover{
+    color:white;
+}

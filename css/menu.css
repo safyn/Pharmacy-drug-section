@@ -1,0 +1,19 @@
+li{
+    display: inline;
+}
+li{
+    width: 100vh;
+}
+ul{
+    text-decoration: none;
+    list-style: none;
+}
+nav{
+    width:100%;
+    overflow: hidden;
+}
+#mainMenu button{
+    color:white;
+    font-size: 1.1em;
+    font-weight: bold;
+}

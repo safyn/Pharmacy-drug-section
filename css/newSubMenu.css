@@ -1,0 +1,25 @@
+/*
+Name : newSubMenu.css
+Purpose : Position and set size of list(menu) buttons
+Author: Krzysztof Bas 
+Date: 30/03/2020
+*/
+
+/* Side Menu */
+
+button#sideMenu{
+	float: left;				/* Float buttons to the left of the container */
+	text-align:center;			/* Text align inside of the button to the center */
+	width:85%;					/* Set width to 85% of the containers width */
+	margin:10px;				/* Set margin of each button to 10px  */
+}
+/* Form action buttons */
+button#actions{
+	text-align:center;			/* Text align inside of the button to the center */
+	width:25%;					/* Set width to 25% of the containers width */
+}
+/* Main Menu */
+button#mainMenu{
+	text-align:center;			/* Text align inside of the button to the center */
+	width:10%;					/* Set width to 10% of the containers width */
+}

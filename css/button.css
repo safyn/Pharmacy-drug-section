@@ -1,0 +1,69 @@
+/*
+																				THIS FILE IS RESPOSINBLE FOR BUTTON APPEARANCE.
+BY:
+A.Robert Binkowski
+C00237917
+
+B.Krzystof Baś
+C00238768
+
+C.Michał Matusiewicz
+C00231687
+
+D.Przemysław Twardowski
+C00224251
+
+*/
+button{
+    background: none;
+    color: #3268a8;							/*blue*/
+    position: relative;						/*the element is positioned relative to its normal posiion*/
+    cursor: pointer;						/*it generates a pointer mouse cursor*/
+    overflow: hidden;						/*anything that is outside of the element is hidden and it also removes a scroll bar*/
+    border: solid 2px #3268a8;				/*adds a blue border*/
+    border-radius: 0.5em 2em 0.5em 2em ;	/*defines the radius of the element's corners*/
+    font-weight: bold;						
+    transition: 0.4s;						/*creates an-animation when you hover on the given element*/
+    z-index: 1;								/*specifies the stack-order of positioned elements*/
+    padding:1em;							/*space between its-content and its border(em is equal to font size)*/
+}
+button::before{
+    content:'';
+    position: absolute;						/*is positioned relative to the nearest positioned ancestor*/
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background: #3268a8;
+    z-index: -1;
+    transition: 0.4s;
+}
+button:before{
+    border-radius: 0 0 40% 40%;
+}
+button:hover::before{
+    height: 180%;
+}
+button:hover{
+    border-radius: 0.8em;
+    color:white;
+}
+button[disabled]:hover{
+    cursor:not-allowed; 					/*changes a mouse-cursor on not-allowed-icon*/
+    border: solid 1px rgba(254,93,126,1);
+}
+.subButton{
+	border: solid 2px rgba(117,61,154,1);
+}
+.subButton:before{
+	background: rgba(117,61,154,1);
+	padding-left: 1em;
+}
+button[disabled]::before{
+    height: 180%;
+	color: white;
+    border-radius: 0.1em;
+}
+a button[disabled]:hover::before{
+        background: rgba(254,93,126,1);
+}

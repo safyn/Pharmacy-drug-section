@@ -1,0 +1,27 @@
+/*
+																				THIS FILE IS RESPOSINBLE FOR FOOTER APPEARANCE.
+BY:
+A.Robert Binkowski
+C00237917
+
+B.Krzystof Baś
+C00238768
+
+C.Michał Matusiewicz
+C00231687
+
+D.Przemysław Twardowski
+C00224251
+
+*/
+footer{
+    padding-bottom: 4em;																									/*padding from the bottom*/
+    padding-top: 4em;																										/*padding from the top*/
+    text-align: center;																										/*centers the text*/
+    background: rgb(117,61,154);
+    background: linear-gradient(90deg, rgba(117,61,154,1) 0%, rgba(254,93,126,1) 50%, rgba(96,109,203,1) 100%);				/*combination of 3 colors*/
+    margin-left: -1em;																										/*margin from the left*/
+    margin-right: -1em;																										/*margin from the right*/
+    left:0;
+    border-top: 3px solid gray;																								/*sets a grey border from the top*/
+}

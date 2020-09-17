@@ -1,0 +1,38 @@
+/*
+Name : table.css
+Purpose : Style table displayed in dispenseDrug form
+Author: Krzysztof Bas 
+Date: 26/03/2020
+*/
+
+/* Style prescription Table */
+table.prescriptionTable {
+  border: 1px solid #1C6EA4;			/* Set table border*/
+  background-color: #EEEEEE;			/* set background color */
+  width: 90%;							/* Set tables width to 90% of the container */
+  text-align: left;						/* Align text inside of the table to the lest */
+  border-collapse: collapse;			/* Set border colapse  */
+	margin:auto;						/* Set tables margin to auto ( middle of the container) */
+	font-size: 13px;					/* Set font size  */
+}
+
+/* Table cells border and padding */
+table.prescriptionTable td, table.prescriptionTable th {
+  border: 1px solid #AAAAAA;			/* Set cells border  */
+  padding: 3px 2px;						/* Set padding between table cells */
+}
+
+/* Style header row */
+table.prescriptionTable thead {
+  background: #1C6EA4;					/* Set background to blue */
+  border-bottom: 2px solid #444444;		/* Set header row bottom border */
+}
+
+/* Style head cells */
+table.prescriptionTable thead th {		
+  font-size: 15px;						/* Set font size for the head cells */
+  font-weight: bold;					/* Set font to bold */
+  color: #FFFFFF;						/* Set collor of the font */
+  border-left: 2px solid #D0E4F5;		/* Set head cells left border */
+}
+

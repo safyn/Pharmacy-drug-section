@@ -1,0 +1,29 @@
+section{
+    padding:1em;
+    margin-top:2em;
+    background: white;
+    border-radius: 1em;
+    min-height: 20vh;
+    color: #3268a8;
+    text-align: center;
+    border-bottom: solid 3px #7A93AC;
+    border-left: solid 3px #7A93AC;
+}
+.grid{
+    min-height: 70vh;
+    display: grid;
+    grid-template-columns: 15% 85%;
+    grid-template-rows: 80% 20%;
+    
+}
+section h1{
+    text-align: right;
+}
+#actions{
+    margin-top: 1em;
+}
+#database{
+	border-radius: 1em;
+	border:3px solid #7895c4;
+	display:grid;
+}
